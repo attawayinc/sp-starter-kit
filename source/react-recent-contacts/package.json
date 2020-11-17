@@ -21,7 +21,7 @@
     "@microsoft/sp-webpart-base": "1.9.1",
     "@microsoft/sp-lodash-subset": "1.9.1",
     "@microsoft/sp-office-ui-fabric-core": "1.9.1",
-    "@types/webpack-env": "1.13.1",
+    "@types/webpack-env": "1.15.3",
     "@types/es6-promise": "0.0.33",
     "@pnp/common": "1.3.7",
     "@pnp/logging": "1.3.7",
