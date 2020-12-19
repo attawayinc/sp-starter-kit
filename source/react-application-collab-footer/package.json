@@ -16,7 +16,7 @@
     "@microsoft/decorators": "~1.4.0",
     "@types/webpack-env": "1.13.1",
     "@types/es6-promise": "0.0.33",
-    "@microsoft/sp-dialog": "~1.4.0",
+    "@microsoft/sp-dialog": "~1.10.0",
     "@microsoft/sp-application-base": "~1.4.0",
     "@microsoft/sp-office-ui-fabric-core": "1.4.1",
     "@types/react": "15.6.6",
