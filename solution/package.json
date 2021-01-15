@@ -13,7 +13,9 @@
     "bundle:dev": "cross-env NODE_OPTIONS=--max_old_space_size=8192 gulp bundle",
     "bundle:prod": "cross-env NODE_OPTIONS=--max_old_space_size=8192 gulp bundle --ship",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "resolutions": {
     "@types/react": "16.8.8"
@@ -33,7 +35,7 @@
     "@pnp/logging": "1.3.11",
     "@pnp/odata": "1.3.11",
     "@pnp/sp": "1.3.11",
-    "@pnp/spfx-controls-react": "1.18.0",
+    "@pnp/spfx-controls-react": "1.19.0",
     "@pnp/spfx-property-controls": "1.18.0",
     "@types/es6-promise": "0.0.33",
     "@types/react": "16.8.8",
@@ -43,9 +45,9 @@
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "tslib": "1.10.0"
+    "tslib": "1.10.0",
+    "snyk": "^1.437.4"
   },
-
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "1.10.0",
     "@microsoft/rush-stack-compiler-3.5": "~0.2.6",
@@ -60,5 +62,6 @@
     "gulp": "~3.9.1",
     "tslint-microsoft-contrib": "5.0.0",
     "webpack-bundle-analyzer": "~3.6.1"
-  }
+  },
+  "snyk": true
 }
