@@ -19,7 +19,7 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
     "@microsoft/sp-listview-extensibility": "1.9.1",
-    "@microsoft/sp-dialog": "1.9.1",
+    "@microsoft/sp-dialog": "1.10.0",
     "react": "16.8.5",
     "react-dom": "16.8.5"
   },
